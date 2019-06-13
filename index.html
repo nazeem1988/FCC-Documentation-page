@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="/Documentation page - Copy/style.css">
+</head>
+
+<body>
+    <div class="main-body">
+    <nav id="navbar">
+        <header>What is JavaScript?</header>
+        <ul>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#For_complete_beginners" class="nav-link">For complete beginners</a></li>
+            <li><a href="#JavaScript_guide" class="nav-link">JavaScript guide</a></li>
+            <li><a href="#Intermediate" class="nav-link">Intermediate</a></li>
+            <li><a href="#Advanced" class="nav-link">Advanced</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>JavaScript (JS) is a lightweight interpreted or just-in-time compiled programming language with
+                    first-class functions. While it is most well-known as the scripting language for Web pages, many
+                    non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript
+                    is a prototype-based, multi-paradigm, dynamic language, supporting object-oriented, imperative, and
+                    declarative (e.g. functional programming) styles. Read more about JavaScript.</p>
+                <code>var myHeading = document.querySelector('h1');
+                            myHeading.textContent = 'Hello world!';</code>
+                <p>This section is dedicated to the JavaScript language itself, and not the parts that are specific to
+                    Web pages or other host environments. For information about APIs specific to Web pages, please see
+                    Web APIs and DOM.</p>
+                <code>var myVariable;</code>
+                <ul>
+                    <li>The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully support
+                        ECMAScript 5.1. Older browsers support at least ECMAScript 3. On June 17, 2015, ECMA
+                        International published the sixth major version of ECMAScript, which is officially called
+                        ECMAScript 2015, and was initially referred to as ECMAScript 6 or ES6. Since then, ECMAScript
+                        standards are on yearly release cycles. This documentation refers to the latest draft version,
+                        which is currently ECMAScript 2020.</li>
+                    <li>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are
+                        trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two
+                        programming languages have very different syntax, semantics, and uses.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="For_complete_beginners">
+            <header>For complete beginners</header>
+            <article>
+                <p>Head over to our Learning Area JavaScript topic if you want to learn JavaScript but have no previous
+                    experience of JavaScript or programming. The complete modules available there are as follows:</p>
+                <ul>
+                    <li>JavaScript first steps</li>
+                    <p>Answers some fundamental questions such as "what is JavaScript?", "what does it look like?", and
+                        "what can it do?", along with discussing key JavaScript features such as variables, strings,
+                        numbers, and arrays.</p>
+                    <li>JavaScript building blocks</li>
+                    <p>Continues our coverage of JavaScript's key fundamental features, turning our attention to
+                        commonly-encountered types of code block such as conditional statements, loops, functions, and
+                        events.</p>
+                    <code>var myVariable = 'Bob';
+                            myVariable = 'Steve';</code>
+                    <li>Introducing JavaScript objects</li>
+                    <p>The object-oriented nature of JavaScript is important to understand if you want to go further
+                        with
+                        your knowledge of the language and write more efficient code, therefore we've provided this
+                        module
+                        to help you.</p>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="JavaScript_guide">
+            <header>JavaScript guide</header>
+            <article>
+                <p>A much more detailed guide to the JavaScript language, aimed at those with previous programming
+                    experience either in JavaScript or another language.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Intermediate">
+            <header>Intermediate</header>
+            <article>
+                <ul>
+                    <li>Client-side web APIs</li>
+                    <p>When writing client-side JavaScript for web sites or applications, you won't go very far before
+                        you
+                        start to use APIs — interfaces for manipulating different aspects of the browser and operating
+                        system the site is running on, or even data from other web sites or services. In this module we
+                        will
+                        explore what APIs are, and how to use some of the most common APIs you'll come across often in
+                        your
+                        development work. </p>
+                    <li>A re-introduction to JavaScript</li>
+                    <p>An overview for those who think they know about JavaScript.</p>
+                    <code>Math.sin(3.5);
+                        var circumference = 2 * Math.PI * r;</code>
+                    <li>JavaScript data structures</li>
+                    <p>Overview of available data structures in JavaScript.</p>
+                    <code>parseInt('123', 10); // 123
+                        parseInt('010', 10); // 10</code>
+                    <li>Equality comparisons and sameness</li>
+                    <p>JavaScript provides three different value-comparison operations: strict equality using ===, loose
+                        equality using ==, and the Object.is() method.</p>
+                    <li>Closures</li>
+                    <p>A closure is the combination of a function and the lexical environment within which that function
+                        was
+                        declared.</p>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Advanced">
+            <header>Advanced</header>
+            <article>
+                <ul>
+                    <li>Inheritance and the prototype chain</li>
+                    <p>Explanation of the widely misunderstood and under-estimated prototype-based inheritance.</p>
+                    <li>Strict mode</li>
+                    <p>Strict mode defines that you can not use any variable before initializing it. It is a restricted
+                        variant of ECMAScript 5, for faster performance and easier debugging.</p>
+                    <li>JavaScript typed arrays</li>
+                    <p>JavaScript typed arrays provide a mechanism for accessing raw binary data.</p>
+                    <li>Memory Management</li>
+                    <p>Memory life cycle and garbage collection in JavaScript.</p>
+                    <li>Concurrency model and Event Loop</li>
+                    <p>JavaScript has a concurrency model based on an "event loop".</p>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</div>
+</body>
+
+</html>
